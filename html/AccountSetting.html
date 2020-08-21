@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/AccountSetting.css">
+</head>
+<body>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<img src="../img/jeet.png" >
+			</div>
+			<div class="col-md-7">
+				<h2 id="name">Person Name</h2>
+				<p id="Profession">Type</p>
+				<br/>
+				<br/>
+				<p>50/10000 (Donated Books)</p>
+				<div id="myProgress">
+				  <div id="myBar"></div>
+				</div>
+				<br/>
+				<br/>
+				<br/>
+				<ul class="nav nav-tabs" style="font-size: 15px;">
+				    <li class="active"><a data-toggle="tab" href="#persnoalde" >Persnoal-Details</a></li>
+				    <li><a data-toggle="tab" href="#collagede">College-Details</a></li>
+				</ul>
+
+				<div class="tab-content">
+			    	<div id="persnoalde" class="tab-pane fade in active">
+			    		<br/>
+				      	<h3><b style="font-weight: 400">First Name :-</b>&nbsp; <span id="fnm">first name</span> </h3>
+				      	<h3><b style="font-weight: 400">Last Name :-</b>&nbsp; <span id="lnm">last name</span> </h3>
+				      	<h3><b style="font-weight: 400">Gender :-</b>&nbsp; <span id="gndr">gender</span> </h3>
+				      	<h3><b style="font-weight: 400">Email :-</b>&nbsp;<span id="email">example@gmail.com</span></h3>
+				      	<h3><b style="font-weight: 400">Password :-</b>&nbsp;<span id="psw">*******</span></h3>
+			    	</div>
+			    	<div id="collagede" class="tab-pane fade">
+			    		<br/>
+				      	<h3><b style="font-weight: 400">Collage Name :-</b>&nbsp; <span id="clg">college</span> </h3>
+				      	<h3><b style="font-weight: 400">Department Name :-</b>&nbsp; <span id="dept">department</span> </h3>
+				      	<h3><b style="font-weight: 400">College Join Year :-</b>&nbsp; <span id="cyr">year</span> </h3>
+				      	<h3><b style="font-weight: 400">Enrollment No. :-</b>&nbsp;<span id="enum">enroll</span></h3>
+			    	</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<button type="button" class="btn" style="background: #1e78e2" onclick="fun()"><img src="../img/user.png" style="width:30px;height:30px;margin-left: 5px;"></button>
+			</div>
+		</div>
+	</div>
+
+<div class="bs-example">
+    <div id="myModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="font-size: 20px;">Edit</h5>
+                    <button type="button" class="close" data-dismiss="modal" style="margin-top: -40px;">&times;</button>
+                </div>
+                <form class="modal-body">
+                	<div class="form-group">
+					    <label for="exampleFormControlInput1">First Name</label>
+					    <input type="text" class="form-control" id="exampleFormControlInput1" name="first">
+					</div>
+                	<div class="form-group">
+					    <label for="exampleFormControlInput2">Last Name</label>
+					    <input type="text" class="form-control" id="exampleFormControlInput2" name="last">
+					</div>
+                	<div id="typepors">	
+						<h4 style="float: left;margin-top: 4px;">Gender:&nbsp;&nbsp;</h4>
+						<input type="radio" id="contactChoice1" name="gender" value="male">
+					    <label for="contactChoice1">Male</label>
+					    <input type="radio" id="contactChoice2" name="gender" value="female">
+					    <label for="contactChoice2">Female</label>
+					    <input type="radio" id="contactChoice2" name="gender" value="other">
+					    <label for="contactChoice3">other</label>
+					</div>
+                	 <div class="form-group">
+					    <label for="exampleFormControlInput1">Email</label>
+					    <input type="email" class="form-control" id="exampleFormControlInput3" name="email">
+					</div>
+					<div class="form-group">
+					    <label for="exampleFormControlInput1">Old password</label>
+					    <input type="password" class="form-control" id="exampleFormControlInput4" name="oldp">
+					</div>
+					<div class="form-group">
+					    <label for="exampleFormControlInput1">New password</label>
+					    <input type="password" class="form-control" id="exampleFormControlInput5" name="newp">
+					</div>
+					<div class="form-group">
+					    <label for="exampleFormControlInput1">New password, again</label>
+					    <input type="password" class="form-control" id="exampleFormControlInput6" name="newrp">
+					</div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary word" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary word" onclick="saveData()">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	function fun(){
+		$("#myModal").modal('show');
+	}
+    var info=window.parent.userInfo;
+    console.log(info);
+    $('#name').html(info.first_name+" "+info.last_name);
+    $('#Profession').html(info.type=="s"?"Student":"Professor");
+    $('#fnm').html(info.first_name);
+    $('#lnm').html(info.last_name);
+    $('#gndr').html(info.gender=="m"?"Male":(info.gender=="f"?"Female":"Other"));
+    $('#email').html(info.email);
+    $('#dept').html(info.department);
+    $('#cyr').html(info.year);
+    $('#enum').html(info.enroll);
+    $('#clg').html(info.college);
+    var form=document.forms[0];
+    form.first.value=info.first_name;
+    form.last.value=info.last_name;
+    form.gender.value=info.gender=="m"?"male":(info.gender=="f"?"female":"other");
+    form.email.value=info.email;
+    function saveData(){
+        var pass=form.oldp.value;
+        var newp=form.newp.value;
+        var newrp=form.newrp.value;
+        var passwd=true;
+        if(newp.length>0){
+            passwd=false;
+            if(pass.length==0){
+                alert("Enter Old Password");
+                form.oldp.focus();
+            }else if(newrp.length==0){
+                alert("Retype New Password");
+                form.newrp.focus();
+            }else if(newp!=newrp){
+                alert("Password Do Not Match!")
+                form.newrp.focus();
+            }else if(pass!=info.password){
+                alert("Old Password Do Not Match!")
+                form.oldp.focus();
+            }else{
+                passwd=true;
+            }
+        }else
+            newp=info.password;
+        var data={
+            enroll:info.enroll,
+            email:form.email.value,
+            last:form.last.value,
+            first:form.first.value,
+            gender:form.gender.value,
+            pass:newp,
+            clg:info.cid
+        };
+        if(passwd)
+        $.ajax({
+            url:'../php/update_info.php',
+            data:data,
+            type:"POST",
+            success:function(a,b){
+                console.log(a);
+                if(a == "success"){
+                	window.parent.myfrm.addEventListener('keypress',function(e){
+						console.log(window.parent.search.value);
+					});
+                }
+            }
+        });
+    }
+</script>
+</body>
+</html>

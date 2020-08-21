@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+	<div class="error-come">
+		<div class="error-msg font-nunito text-center">
+			Please select a locality from the dropdown for searching a property
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row main-div">
+			<div class="col-lg-4 col-xl-3 leftSide">
+				<center><h1 id="logintxth1" class="font-mont">LOGIN</h1></center>
+				<center><p class="text-muted notmalText font-nunito">Book-Sharing is much better when <br/>you logged in.</p></center>
+				<div class="row img_div">
+					<div class="col-lg-12">
+						<img src="../img/login1.png" id="l_img">
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8 col-xl-9 rightSide">
+				<div class="row">
+					<div class="col-11 col-sm-11 col-md-8 col-lg-8 col-xl-6 ml-auto mr-auto">
+						<h1 class="font-mont main-text">Hello !</h1>
+						<p class="notmalText font-nunito">Signin to start donate & recieved books.</p>
+						<br/>
+						<form class="img_div1" onsubmit="return false">
+							<select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="clg"></select>
+							<br/>
+							<div class="md-form form-lg">
+							  <input type="text" id="inputLGEx" class="form-control form-control-lg" name="em">
+							  <label for="inputLGEx" id="enroll">Enrollment&nbsp;/&nbsp;Phno.&nbsp;/&nbsp;Email&nbsp;</label>
+							</div>
+							<br/>
+							<div class="md-form form-lg">
+							  <input type="password" id="inputLGEx1" class="form-control form-control-lg" name="ps">
+							  <label for="inputLGEx1" id="passp">Password</label>
+							</div>
+							<br/>
+							<br/>
+							<div id="buttonForgot">
+								<button id="gobtn" class="notmalText font-nunito">GO</button>
+								<a href="../html/forgotpass.html"><p id="forgotp" class="notmalText-forgot font-nunito">Forgot Your Password ?</p></a>
+							</div>
+							<div class="topformobile">
+								<div class="strike">
+							    	<span class="font-nunito notmalText"><b>OR</b></span>
+								</div>
+								<br/>
+								<br/>
+								<center>
+									<a href="../html/signup.html">
+										<p style="color: black;" class="notmalText font-nunito">Don't have an account ?<b style="font-weight:600;"> Sign up</b></p>
+									</a>
+								</center>
+							</div>
+						</form>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	
+	function showPass(){
+		 var x = document.getElementById("passwd");
+		  if (x.type === "password") {
+		    x.type = "text";
+		  } else {
+		    x.type = "password";
+		  }
+	}
+	(function(){
+            var inputs = document.querySelectorAll('form .input-group input');
+            inputs.forEach((input) => {
+                input.addEventListener('focusout', (e) => {
+                    if (e.target.value === "") {
+                        return e.target.classList.remove('has-value');
+                    }
+                    return e.target.classList.add('has-value');
+                });
+            });
+        })();
+        $('.input-group').click(function(){
+    	    $('.input-group').not(this).removeClass('active-input');
+		    $(this).toggleClass('active-input');
+        });
+</script>
+<script type="text/javascript">
+	var form=document.forms[0];
+    $.ajax({
+        url:'../php/read_colleges.php',
+        success:function(data,b){
+            setColleges(data);
+        }
+    });
+    function setColleges(data){
+        var all=data.split('\n');
+        var output='<option selected value="">Choose Your Collage</option>';
+        for(var i=0;i<all.length;i++){
+            var a=all[i].substr(0,all[i].indexOf(","));
+            var b=all[i].substr(all[i].indexOf(",")+1);
+            output+='<option value="'+a+'">'+b+'</option>';
+        }
+        form.clg.innerHTML=output;
+    }
+    function error_come(txt){
+		$('.error-msg').html(txt);
+		$('.error-come').addClass('error-come-active');
+		setTimeout(function(){
+			$('.error-come').removeClass('error-come-active');
+		},3000);
+	}
+var form=document.forms[0];
+    function valid(){
+        $.ajax({
+            url:'../php/login.php',
+            data:{
+                clg:form.clg.value,
+                id:form.em.value,
+                pass:form.ps.value
+            },
+            type:"POST",
+            success:function(a,b){
+         	error_come(a);
+                if(a=="success"){
+                    var cuki = "key1="+form.em.value+","+form.clg.value+"; expires="+new Date(new Date().getTime()+9999999999999).toGMTString()+"; path=/;";
+                    document.cookie=cuki;
+
+                    window.location.replace("../");
+                }else
+                error_come(a);
+            }
+        });
+        return false;
+    }
+</script>
+</html>

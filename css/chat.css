@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,600;1,700;1,800;1,900&display=swap');
+.font-mont{
+	font-family: 'Montserrat',sans-serif;
+}
+.font-nunito{
+	font-family:  'Nunito Sans', sans-serif;
+}
+body{
+	padding: 0;
+	margin:0;
+}
+br{
+	user-select: none;
+}
+/* chat List start */
+.chatList{
+	height:100vh; 
+	background:#f4f6fb;
+	overflow-y: scroll;
+	overflow-x:hidden;
+}
+.first-cirlce-row{
+	height: 70px;
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
+.verticle-center-1{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.request-circle,.response-circle{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+.request-circle{
+	background: #fccb40;
+	box-shadow: 0 .5rem 2rem #fccb4055;	
+}
+.response-circle{
+	background: #4fc4d0;
+	box-shadow: 0 .5rem 2rem #4fc4d055;	
+}
+.circle-text{
+	margin-left: 10px;
+	color: #686e93;
+	font-size: 1em; 
+	font-weight: 500;
+}
+.listHere{
+	padding: 5px 10px;
+	border-bottom: .5px solid #ebe7e7; 
+}
+.listHere:last-child{
+	border-bottom: 0;
+}
+.listHere:hover{
+	background: #fafafa;
+}
+.list-active{
+	background: #fff;
+}
+.right-request::after{
+	content: '';
+	position: absolute;
+	height: 40px;
+	right: 0;
+	width: 6px;
+	transform: translateX(-70%);
+	background: #fccb40;
+	box-shadow: 0 .5rem 2rem #fccb4055;
+}
+.right-response::after{
+	content: '';
+	position: absolute;
+	height: 40px;
+	right: 0;
+	width: 6px;
+	transform: translateX(-70%);
+	background: #4fc4d0;
+	box-shadow: 0 .5rem 2rem #4fc4d055;	
+}
+.Cname{
+	color: #515986;
+	font-weight: 500;
+	font-size: 1.3rem;
+	width: 100%;
+}
+.desc-List{
+	color: #6a6a6a;
+	margin-top: 15px;
+}
+/* chat List end */
+/* onlyChat start */
+.serch-icon{
+	color: #515986;
+	font-size: 1.1em;
+	height: 40px;
+	width: 40px;
+	text-align:center; 
+	line-height: 40px;
+	background: #f4f6fb;
+	border-bottom-left-radius:50px; 
+	border-top-left-radius:50px;
+	margin-left: 10px; 
+}
+.serch-input{
+	padding-left: 5px;
+	height: 40px;
+	width: 300px;
+	background: #f4f6fb;
+	border-bottom-right-radius:50px; 
+	border-top-right-radius:50px; 
+	border:none; 
+	outline: none;
+}
+
+
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+    /* border-bottom: 1px dotted #B3A9A9; */
+    margin-top: 10px;
+    width: 80%;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    /* color: #777777; */
+}
+
+
+.chat-care
+{
+    overflow-y: scroll;
+    height: calc(100vh - 135px);
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%231e78e2' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.chat-care .chat-img
+{
+    width: 50px;
+    height: 50px;
+}
+.chat-care .img-circle
+{
+    border-radius: 50%;
+}
+.chat-care .chat-img
+{
+    display: inline-block;
+}
+.chat-care .chat-body
+{
+    display: inline-block;
+    max-width: 80%;
+    border-radius: 12.5px;
+    padding: 15px;
+}
+.agent .chat-body{
+	background: #f5f5f5;
+}
+.chatRightSide .chat-body{
+	background: #1e78e2;
+	color: #fff;
+}
+.chatRightSide .chat-body .header strong{
+	color: #444;
+}
+.chat-care .chatRightSide
+{
+    text-align: right ;
+    float: right;
+}
+.chat-care .chatRightSide p
+{
+    text-align: left ;
+}
+.chat-care .agent
+{
+    text-align: left ;
+    float: left;
+}
+.chat-care .left
+{
+    float: left;
+}
+.chat-care .right
+{
+    float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+/* onlyChat end */

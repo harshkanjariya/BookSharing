@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://j11y.io/demos/plugins/jQuery/autoresize.jquery.js"></script>
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,600;1,700;1,800;1,900&display=swap');
+		  .font-mont{
+		    font-family: 'Montserrat',sans-serif;
+		  }
+		  .font-nunito{
+		    font-family:  'Nunito Sans', sans-serif;
+		  }
+		  body{
+			    background: #f9f9f9;
+			}
+
+		.container{
+			width: 100%;
+			margin-top: 5%;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+		@media only screen and (min-width: 991px){
+			.container .row{
+				width:80%;
+			}
+		}
+		.options{
+			background: #f5f5f5;
+			padding: 30px;
+			font-family: 'Nunito',sans-serif
+		}
+	</style>	
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">	
+			<div class="col-md-12">
+					<h1 class="font-mont" style="font-weight: 600;">
+					Add Book
+					</h1>
+				<br/>
+				<br/>
+			</div>
+			<div class="col-md-12 options shadow-sm">
+	       		<br/>
+		      	<div class="form-group">
+				    <label for="exampleInputEmail1">Name :</label>
+				    <input type="text" name="pdname" id="pdbname" class="form-control" id="exampleInputEmail2"  placeholder="Enter Name">
+				</div>
+				<br/>
+		      	<div class="form-group">
+				    <label for="exampleInputEmail1">Authour Name :</label>
+				    <input type="text" name="autname" id="autname" class="form-control" id="exampleInputEmail2"  placeholder="Enter Authour Name">
+				</div>
+				<br/>
+				<div class="form-group">
+				    <label for="exampleInputEmail1">Addition Name :</label>
+				    <input type="text" name="addname" id="addname" class="form-control" id="exampleInputEmail2"  placeholder="Enter Addition Name">
+				</div>
+				<br/>
+				<div class="form-group">
+				    <label for="exampleInputEmail1">Subject Code :</label>
+				    <input type="text" name="scode" id="scode" class="form-control" id="exampleInputEmail2"  placeholder="Enter Subject Code">
+				</div>
+				<br/>
+				<label for="exampleInputEmail13" style="color: black;float: left;">Image 1:</label>
+				<div class="input-group">
+				  <div class="input-group-prepend">
+				    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+				  </div>
+				  <div class="custom-file">
+				    <input type="file" name="file" id="fileb2" class="custom-file-input" >
+				    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+				  </div>
+				</div>
+				<br/>
+				<label for="exampleInputEmail3" style="color: red;float: right;">Upload if Only *</label>
+				<label for="exampleInputEmail3" style="color: black;float: left;">Image 2 :</label>
+				<br/>
+				<div class="input-group">
+				  <div class="input-group-prepend">
+				    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+				  </div>
+				  <div class="custom-file">
+				    <input type="file" name="file1" id="fileb3" class="custom-file-input">
+				    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+				  </div>
+				</div>
+				<br/>
+				<div class="form-group">
+				  <label for="comment">Description :</label>
+				  <textarea class="form-control" id="pdbdis" name="pddis" rows="5" id="comment1" placeholder="Enter Description"></textarea>
+				</div>
+				 <button type="button" class="btn" style="background: #1e78e2;color: #fff;" onclick="submitB()">Submit</button>
+			</div>    
+    	</div>
+	</div>
+</body>
+<script type="text/javascript">
+	function submitB(){
+		  var pddis=$('#pdbdis').val();
+		  var pdname=$('#pdbname').val();
+		  var autname=$('#autname').val();
+		  var addname=$('#addname').val();
+		  var scode=$('#scode').val();
+		  var who='b';
+		  var file_data = $('#fileb2').prop('files')[0];   
+		  var file_data1 = $('#fileb3').prop('files')[0];   
+		  var form_data = new FormData();                                    
+		  form_data.append('file', file_data);
+		  form_data.append('file1', file_data1);
+		  form_data.append('pddis',pddis);
+		  form_data.append('pdname',pdname);
+		  form_data.append('autname',autname);
+		  form_data.append('addname',addname);
+		  form_data.append('scode',scode);
+		  form_data.append('who',who);
+		  console.log(form_data);
+		  $.ajax({
+		      url: "../php/imageUpload.php",
+		      type: "POST",
+		      data: form_data,
+		      contentType: false,
+		      cache: false,
+		      processData:false,
+		      success: function(data){
+		          //$(te).
+		          	console.log(data);
+		          	//alert("success");
+		          	if(data.charAt(0)=='N')
+			          	location.reload();
+		      }
+		  });		
+	}
+</script>
+</html>

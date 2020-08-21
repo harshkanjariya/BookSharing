@@ -1,0 +1,60 @@
+[12-Dec-2019 11:28:49 UTC] PHP Notice:  Undefined variable: db in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/read_colleges.php on line 3
+[12-Dec-2019 11:28:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/read_colleges.php on line 3
+[12-Dec-2019 11:28:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/read_colleges.php on line 4
+[12-Dec-2019 11:28:49 UTC] PHP Notice:  Undefined variable: db in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/read_colleges.php on line 7
+[12-Dec-2019 11:28:49 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/read_colleges.php on line 7
+[12-Dec-2019 12:34:40 UTC] PHP Notice:  Undefined index: clg in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/register.php on line 3
+[12-Dec-2019 12:35:32 UTC] PHP Notice:  Undefined index: clg in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/register.php on line 3
+[12-Dec-2019 12:35:32 UTC] PHP Notice:  Undefined index: clg in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/register.php on line 3
+[12-Dec-2019 12:35:33 UTC] PHP Notice:  Undefined index: clg in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/register.php on line 3
+[12-Dec-2019 12:35:33 UTC] PHP Notice:  Undefined index: clg in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/register.php on line 3
+[16-Dec-2019 11:20:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/login.php on line 8
+[16-Dec-2019 11:20:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/login.php on line 10
+[16-Dec-2019 11:20:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/login.php on line 8
+[16-Dec-2019 11:20:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/login.php on line 10
+[16-Dec-2019 11:59:03 UTC] PHP Notice:  Undefined index: clg in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 3
+[16-Dec-2019 11:59:03 UTC] PHP Notice:  Undefined index: un in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 4
+[16-Dec-2019 11:59:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 7
+[16-Dec-2019 12:04:04 UTC] PHP Notice:  Undefined index: clg in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 3
+[16-Dec-2019 12:04:04 UTC] PHP Notice:  Undefined index: un in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 4
+[16-Dec-2019 12:04:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 7
+[16-Dec-2019 12:04:28 UTC] PHP Notice:  Undefined index: clg in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 3
+[16-Dec-2019 12:04:28 UTC] PHP Notice:  Undefined index: un in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 4
+[16-Dec-2019 12:04:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 7
+[16-Dec-2019 12:06:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 7
+[16-Dec-2019 12:06:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 8
+[17-Dec-2019 06:42:11 UTC] PHP Notice:  Undefined index: un in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 4
+[17-Dec-2019 06:42:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 7
+[17-Dec-2019 06:46:50 UTC] PHP Notice:  Undefined index: un in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 4
+[17-Dec-2019 06:46:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/verify.php on line 7
+[18-Dec-2019 08:13:57 UTC] PHP Notice:  Undefined index: fn in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/update_info.php on line 5
+[18-Dec-2019 08:13:57 UTC] PHP Notice:  Undefined index: ln in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/update_info.php on line 6
+[18-Dec-2019 08:14:36 UTC] PHP Notice:  Undefined index: fn in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/update_info.php on line 5
+[18-Dec-2019 08:14:36 UTC] PHP Notice:  Undefined index: ln in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/update_info.php on line 6
+[10-May-2020 05:51:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 05:51:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 05:51:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 05:51:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 05:51:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 05:51:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 05:51:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 05:52:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/ajax.php on line 48
+[10-May-2020 05:52:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/ajax.php on line 48
+[10-May-2020 05:53:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 05:54:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 05:54:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 05:54:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 05:56:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 06:02:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 06:02:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 06:05:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 06:07:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 06:07:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 06:07:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/ajax.php on line 48
+[10-May-2020 06:07:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/ajax.php on line 48
+[10-May-2020 07:30:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 07:30:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 07:30:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[10-May-2020 07:36:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[15-May-2020 14:08:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29
+[19-Jun-2020 13:39:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ybod2d0ubct4/public_html/jeet.shreekhodiyarind.co.in/shared/Books/php/chatlist.php on line 29

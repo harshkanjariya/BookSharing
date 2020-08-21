@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,600;1,700;1,800;1,900&display=swap');
+:root{
+	--light-primary:#1e78e2;
+	--light-textColor:#fff;
+}
+.font-mont{
+	font-family: 'Montserrat',sans-serif;
+}
+.font-nunito{
+	font-family:  'Nunito Sans', sans-serif;
+}
+body{
+	padding: 0;
+	margin:0;
+	background: #f8fafb;
+	overflow-x: hidden;
+}
+br{
+	user-select: none;
+}
+
+.error-come{
+	position: fixed;
+    right: -1000px;
+    top: 100px;
+    min-width: 275px;
+    max-width: 350px;
+    padding-left: 75px;
+    z-index: 1999;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #d1d1d1;
+    background: url('../img/error_img.png') 20px center no-repeat #ea6975;
+    -ms-transition: right .5s ease;
+    -moz-transition: right .5s ease;
+    -webkit-transition: right .5s ease;
+    -o-transition: right .5s ease;
+    transition: right .5s ease;
+}
+.error-come-active{
+	right: 50px;
+}
+@media only screen and (max-width:400px){
+	.error-come-active{
+		right: 10px;
+	}	
+}
+
+.error-msg{
+	position: relative;
+    height: inherit;
+    background: #fff;
+ 	text-align: center;
+ 	display: -webkit-flex;
+ 	display: -moz-flex;
+ 	display: -ms-flex;
+ 	display: -o-flex;
+ 	display: flex;
+ 	align-items:  center;
+ 	justify-content: center;
+ 	padding:10px; 
+    min-height: 80px;
+    border-radius: 0 5px 5px 0;
+    overflow: auto;
+    color: #333;
+    font-size: 16px;
+}
+
+
+.main-div{
+	min-height: 100vh;
+}
+.leftSide{
+	background:white; 
+}
+.rightSide{
+	background:#B2DFDB; 
+}
+#logintxth1{
+	font-size: 3rem;
+	font-weight: 500;
+	margin-top: 80px;
+}
+.notmalText,.notmalText-forgot{
+	font-size: 1.2rem;
+}
+@media only screen and (max-width: 500px){ 
+	.notmalText-forgot{
+		font-size: 1rem;
+	}
+	.notmalText{
+		font-size: 1.1rem;
+	}
+}
+.img_div{
+	margin-top: 10vw;
+}
+.img_div1{
+	margin-top: 3vw;
+}
+.img_div > .col-lg-12{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-text{
+	font-size: 3rem;
+	font-weight: 400;
+	margin-top: 80px;
+}
+@media only screen and (max-width: 500px){
+	.main-text{
+		font-size: 2rem;
+		font-weight: 400;
+	}	
+}
+.normal-main-Text{
+
+}
+input{
+	border:0; 
+}
+.md-form input{
+	box-shadow: 0 1px 0 0 #33315d !important;
+	border-bottom: 1px solid #33315d !important;
+}
+.md-form input:focus{
+	box-shadow: 0 1px 0 0 #33315d !important;
+	border-bottom: 1px solid #33315d !important;
+}
+.md-form input[type=text]:focus + #enroll,.md-form input[type=password]:focus + #passp {
+	color:#33315d; 
+}
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+    color: black;
+
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: grey;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+	.topformobile{
+		margin-top: 100px;
+	}
+#gobtn{
+	float: left;
+	background: #33315d;
+	color: white;
+	letter-spacing: 1px;
+	transition: .5s;
+	padding: 10px 60px;
+	outline: none;
+	border-radius: 50px;
+	border:1px solid #33315d;
+}
+#gobtn:hover{
+	background: none;
+	border:1px solid #33315d;
+	color: #33315d;
+}
+#forgotp{
+	color: rgb(0,0,0);
+	float: right;
+	line-height: 45px;
+}
+@media only screen and (min-width:400px) and (max-width: 492px){
+	#gobtn{
+		float: left;
+		background: #33315d;
+		color: white;
+		letter-spacing: 1px;
+		transition: .5s;
+		padding: 10px 50px;
+		border-radius: 50px;
+		border:1px solid #33315d;
+	}
+	#forgotp{
+		line-height: 45px;
+	}	
+}
+@media only screen and (max-width: 400px){ 
+	#gobtn{
+		padding: 10px 30px;
+	}
+}

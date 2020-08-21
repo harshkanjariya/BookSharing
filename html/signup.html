@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Signup</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="../css/signup.css">
+</head>
+<body>
+	<div class="error-come">
+		<div class="error-msg font-nunito text-center">
+			Please select a locality from the dropdown for searching a property
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row main-div">
+			<div class="col-lg-4 col-xl-3 leftSide">
+				<center><h1 id="logintxth1" class="font-mont">SIGN UP</h1></center>
+				<center><p class="text-muted notmalText font-nunito">Enter your personal details and start<br/> journey  with us.</p></center>
+				<div class="row img_div">
+					<div class="col-lg-12">
+						<img src="../img/login1.png" id="l_img">
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8 col-xl-9 rightSide">
+				<div class="row">
+					<div class="col-11 col-sm-11 col-md-8 col-lg-8 col-xl-6 ml-auto mr-auto">
+						<h1 class="font-mont main-text  small-center">Create Account</h1>
+						<p class="notmalText font-nunito small-center">Signup to start donate & recieved books.</p>
+						<form>
+							<div class="page1">
+								<br/>
+								<br/>
+								<h4 id="rightptag" class="font-nunito">Enter Your Collage Details :</h4>
+								<br/>
+								<select class="custom-select my-1 mr-sm-2 font-nunito" id="inlineFormCustomSelectPref" name="clg"></select>
+								<br/>
+								<br/>	
+								<select class="custom-select my-1 mr-sm-2 font-nunito" id="inlineFormCustomSelectPref" name="dept">
+								    <option selected value="">Choose Your Department Name</option>
+								    <option>Computer Engineering</option>
+								    <option>Civil Engineering</option>
+								    <option>Mechanical Engineering</option>
+								</select>
+								<br/>
+								<br/>
+								<div id="typepors">	
+								<h5 style="float: left; " class="font-nunito">Type:&nbsp;&nbsp;</h5>
+									<input type="radio" checked id="contactChoice1" name="type" value="student">
+								    <label for="contactChoice1">Student</label>
+								    <input type="radio" id="contactChoice2" name="type" value="professor">
+								    <label for="contactChoice2">Professor</label>
+								</div>
+								<div class="md-form form-lg">
+								  <input type="text" id="inputLGEx1" class="form-control font-nunito form-control-lg" name="enrollno">
+								  <label for="inputLGEx1" class="font-nunito" id="enroll">Enrollment&nbsp;No.</label>
+								</div>
+								<br/>
+								<select class="custom-select my-1 mr-sm-2 font-nunito " id="inlineFormCustomSelectPref" name="cyear">
+								    <option selected value="">Collage Current Year</option>
+								    <option value="1">1</option>
+								    <option value="2">2</option>
+								    <option value="3">3</option>
+								    <option value="4">4</option>
+								</select>
+								<br/>
+								<br/>
+							</div>
+							<div class="page2">
+								<h4 id="rightptag">Enter Your Personal Details :</h4>
+								<br/>
+								<div class="md-form form-lg">
+								  <input type="text" id="inputLGEx11" class="form-control font-nunito form-control-lg" name="fnm">
+								  <label for="inputLGEx11" class="font-nunito" id="name">First Name</label>
+								</div>
+
+								<div class="md-form form-lg">
+								  <input type="text" id="inputLGEx22" class="form-control font-nunito form-control-lg" name="lnm">
+								  <label for="inputLGEx22" class="font-nunito" id="name">Last Name</label>
+								</div>
+								
+								<div class="md-form form-lg">
+								    <input type="file" class="custom-file-input" id="validatedCustomFile" accept="image/*" required>
+								    <label class="custom-file-label" class="font-nunito" for="validatedCustomFile">Choose Your Photo</label>
+								</div>
+								<br/>
+								<div id="typepors">	
+									<h4 style="float: left;" class="font-nunito">Gender:&nbsp;&nbsp;</h4>
+									<input type="radio" id="contactChoice1" checked name="gender" value="male">
+								    <label for="contactChoice1" class="font-nunito">Male</label>
+								    <input type="radio" id="contactChoice2" name="gender" value="female">
+								    <label for="contactChoice2" class="font-nunito">Female</label>
+								    <input type="radio" id="contactChoice2" name="gender" value="other">
+								    <label for="contactChoice3" class="font-nunito">other</label>
+								</div>
+								<br/>
+								<div class="md-form form-lg">
+								  <input type="email" id="inputLGEx33" class="form-control font-nunito form-control-lg" name="email">
+								  <label for="inputLGEx33" id="number" class="font-nunito">Email</label>
+								</div>
+								<div class="md-form form-lg">
+								  <input type="password" id="password" class="form-control font-nunito form-control-lg" name="pass" class="font-nunito">
+								  <span toggle="#password" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+								  <label for="inputLGEx55" class="font-nunito" id="ps1">Password</label>
+							      <small id="password-hard" class="form-text">
+								  <i class="fa fa-info-circle"></i>&nbsp;&nbsp;
+								  <span id="letterst">Password must At list one letter </span>
+								  <span id="capitalst"> , At list one capital letter</span>
+								  <span id="numberst">, At list one number </span>
+								  <span id="lengthst">, At list 8 characters and<span>
+								  <span id="specialcharst"> At list one special characters.<span>
+								  </small>
+
+								</div>
+								<div class="md-form form-lg">
+								  <input type="password" id="repass" class="form-control font-nunito form-control-lg" name="repass">
+								  <span toggle="#repass" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+								  <label for="inputLGEx66" class="font-nunito" id="ps2">Confirm-Password</label>
+								</div>
+								<br/>
+								<br/>
+							</div>	
+						</form>	
+						<br/>
+						<div id="buttonForgot">
+							<center>
+								<button id="gobtn" class="font-nunito notmalText" onclick="page1()" value="NEXT">NEXT</button>
+							</center>
+						</div>
+						<br/>
+						<br/>
+						<div id="pagination">
+						    <div class="circl font-nunito" id="c1">1</div>
+							<div class="circl font-nunito" id="c2">2</div>
+							<div class="circl font-nunito" id="c3">3</div>
+						</div>
+						<br/>
+						<br/>
+						<div class="strike">
+					    	<span class="font-nunito"><b>OR</b></span>
+						</div>
+						<br/>
+						<br/>
+						<center>
+							<a href="login.html">
+								<p style="color: black;" class="notmalText font-nunito">Already have an account ?<b style="font-weight:600;"> Log in</b></p>
+							</a>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	
+	function error_come(txt){
+		$('.error-msg').html(txt);
+		$('.error-come').addClass('error-come-active');
+		setTimeout(function(){
+			$('.error-come').removeClass('error-come-active');
+		},3000);
+	}
+
+	   var check=1;
+	$('#password').keyup(function() {
+	    var pswd = $(this).val();
+	    check=1;
+	    if(pswd.length < 8){
+	    	check=0;
+		    $('#lengthst').removeClass('valid').addClass('invalid');
+		} else {
+		    $('#lengthst').removeClass('invalid').addClass('valid');
+		}
+
+		//validate letter
+		if(pswd.match(/[A-z]/)){
+		    $('#letterst').removeClass('invalid').addClass('valid');
+		} else {
+			check=0;
+		    $('#letterst').removeClass('valid').addClass('invalid');
+		}
+
+		//validate capital letter
+		if(pswd.match(/[A-Z]/)){
+		    $('#capitalst').removeClass('invalid').addClass('valid');
+		} else {
+			check=0;
+		    $('#capitalst').removeClass('valid').addClass('invalid');
+		}
+
+		//validate number
+		if(pswd.match(/\d/)){
+		    $('#numberst').removeClass('invalid').addClass('valid');
+		} else {
+			check=0;
+		    $('#numberst').removeClass('valid').addClass('invalid');
+		}
+		//validate number
+
+		if(/[\s~`!@#$%\^&*+=\-\[\]\\';,/{}|\\":<>\?()\._]/g.test(pswd)){
+    		$('#specialcharst').removeClass('invalid').addClass('valid');
+		} else {
+			check=0;
+		    $('#specialcharst').removeClass('valid').addClass('invalid');
+		}
+		if(check){
+		    $('#password-hard').addClass('password-hard-active');
+		}else{
+		    $('#password-hard').removeClass('password-hard-active');
+		}
+	}).focus(function() {
+	    $('#password-hard').addClass('password-hard-inactive');
+	}).blur(function() {
+	    $('#password-hard').removeClass('password-hard-inactive');
+	});
+
+	$('.toggle-password').on('click', function() {
+	  $(this).toggleClass('fa-eye fa-eye-slash');
+	  let input = $($(this).attr('toggle'));
+	  if (input.attr('type') == 'password') {
+	    input.attr('type', 'text');
+	  }
+	  else {
+	    input.attr('type', 'password');
+	  }
+	});
+
+
+	(function(){
+            var inputs = document.querySelectorAll('form .input-group input');
+            inputs.forEach((input) => {
+                input.addEventListener('focusout', (e) => {
+                    if (e.target.value === "") {
+                        return e.target.classList.remove('has-value');
+                    }
+                    return e.target.classList.add('has-value');
+                });
+            });
+        })();
+        $('.input-group').click(function(){
+    	    $('.input-group').not(this).removeClass('active-input');
+		    $(this).toggleClass('active-input');
+        });
+</script>
+<script type="text/javascript">
+	var form=document.forms[0];
+	console.log(form);
+    $.ajax({
+        url:'../php/read_colleges.php',
+        success:function(data,b){
+            setColleges(data);
+        }
+    });
+    function setColleges(data){
+        var all=data.split('\n');
+        var output='<option selected value="">Choose Your Collage</option>';
+        for(var i=0;i<all.length;i++){
+            var a=all[i].substr(0,all[i].indexOf(","));
+            var b=all[i].substr(all[i].indexOf(",")+1);
+            output+='<option value="'+a+'">'+b+'</option>';
+        }
+        form.clg.innerHTML=output;
+    }
+	var count=0;
+	var otp="";
+	function page1(){
+	    var clg=form.clg.value;
+	    var dept=form.dept.value;
+	    var enroll=form.enrollno.value;
+	    var cyear=form.cyear.value;
+	    
+	    var fname=form.fnm.value;
+	    var lname=form.lnm.value;
+	    var em=form.email.value;
+	    var pass=form.pass.value;
+	    var repass=form.repass.value;
+	    
+	    if(clg.length==0){
+	        error_come("Please select your college");
+	        form.clg.focus();
+	    }else if(dept.length==0){
+	        error_come("Please select your department");
+	        form.dept.focus();
+	    }else if(enroll.length==0){
+	        error_come("Please enter your Enrollment Number");
+	        form.enrollno.focus();
+	    }else if(cyear.length==0){
+	        error_come("Please select your college year");
+	        form.cyear.focus();
+	    }else
+		if(count==0){
+			document.getElementById('gobtn').innerHTML="NEXT";
+			$('.page1').css('display','none');
+			$('.page2').css('display','block');
+			$('.page3').css('display','none');
+			document.getElementById('c1').style.background="none";
+			document.getElementById('c1').style.color="#33315d";
+			document.getElementById('c2').style.color="#fff";
+			document.getElementById('c2').style.backgroundColor="#33315d";
+			document.getElementById('c3').style.background="none";
+			document.getElementById('c3').style.color="#33315d";
+			count++;
+	    }else if(fname.length==0){
+	        error_come("Please enter your first name");
+	        form.fnm.focus();
+	    }else if(lname.length==0){
+	        error_come("Please enter your last name");
+	        form.lnm.focus();
+	    }else if(em.length==0){
+	        error_come("Please enter your Email");
+	        form.email.focus();
+	    }else if(pass.length==0){
+	        error_come("Please enter password");
+	        form.pass.focus();
+	    }else if(repass.length==0){
+	        error_come("Please Retype password");
+	        form.repass.focus();
+	    }else if(repass!=pass){
+	        error_come("Password do not match");
+	        form.repass.focus();
+	    }else if(count==1){
+			document.getElementById('gobtn').innerHTML="SIGNUP";
+			$('.page1').css('display','none');
+			$('.page2').css('display','none');
+			$('.page3').css('display','block');
+
+
+			document.getElementById('c1').style.background="none";
+			document.getElementById('c1').style.color="#33315d";
+			document.getElementById('c2').style.background="none";
+			document.getElementById('c2').style.color="#33315d";	
+			document.getElementById('c3').style.color="#fff";
+			document.getElementById('c3').style.backgroundColor="#33315d";
+			count++;
+			$.ajax({
+	            url:'../php/otp.php',
+	            data:{to:em,from:'harshgkanjariya2468@gmail.com'},
+	            type:"POST",
+	            success:function(a,b){
+	                var data=a.split("\n");
+	                otp=data[1];
+	                error_come("Otp is sent to yout email");
+	            }
+	        });
+		}else if(otp==form.otp.value){
+           	error_come('Your request sended to The admin please wait for response');
+            location.reload();
+            /*var details={
+	            clg:clg,
+	            deptname:dept,
+	            type:form.type.value,
+	            enroll:enroll,
+	            year:cyear,
+	            fn:fname,
+	            ln:lname,
+	            gender:form.gender.value,
+	            email:em,
+	            pass:pass
+	        };
+	        $.ajax({
+	            url:'../php/register.php',
+	            data:details,
+	            type:"POST",
+	            success:function(a,b){
+	                console.log(a);
+	                if(a=="success"){
+                        var cuki = "key1="+enroll+","+clg+"; expires="+new Date(new Date().getTime()+9999999999999).toGMTString()+"; path=/shared/Books/;";
+                        document.cookie=cuki;
+                        window.location.replace("../");
+	                }
+	            }
+	        });*/
+		}else if(form.otp.value!=otp){
+		    error_come("Incorrect otp");
+		}
+	}
+</script>
+</html>

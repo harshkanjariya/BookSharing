@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/plugin.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/Dashboard.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 ">
+                <h2 class="dashtext">Dashboard</h2>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#"><i class="zmdi zmdi-home"></i>&nbsp;Book Sharing</a></li>
+                    <li class="breadcrumb-item active">Dashboard</li>
+                </ul>
+            </div>
+        </div>
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-12 box1">
+				<div class="card big_icon donate">
+                    <div class="body">
+                        <h6>Donated Stationery</h6>
+                        <h2>20 <small class="info">of 1000</small></h2>
+                        <small>2% higher than last month</small>
+                        <div class="progress">
+                            <div class="progress-bar l-green" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 box1">
+				<div class="card big_icon received">
+                    <div class="body">
+                        <h6>Received Stationery</h6>
+                        <h2>10 <small class="info">of 1000</small></h2>
+                        <small>10% higher than last month</small>
+                        <div class="progress">
+                            <div class="progress-bar l-blue" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 box1">
+				<div class="card">
+                    <div class="body big_icon history">
+                        <h6>History</h6>
+                        <h2>4 <small class="info">/ 1000</small></h2>
+                         <small>50% higher than last month</small> 
+                        <div class="progress">
+                            <div class="progress-bar l-purple" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 box1">
+				<div class="card big_icon noti">
+                    <div class="body">
+                        <h6>Notification</h6>
+                        <h2>7 <small class="info">/ 1000</small></h2>
+                         <small>10% higher than last month</small> 
+                        <div class="progress">
+                            <div class="progress-bar l-amber" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+		<div class="row d_salesch">
+			<div class="col-lg-12">
+				<div class="body">
+                    <div id="chart-area-spline-sracked" class="c3_chart d_sales"></div>
+                </div>
+			</div>
+		</div>
+        <div class="row">
+            <div class="col-lg-12">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 botom">
+                <h2 class="trafich2"><strong>Traffic</strong> Source :</h2>
+                <div id="chart-area-step" class="c3_chart d_traffic"></div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h2 class="trafich2"><strong>Distribution :</strong></h2>
+                <div class="body text-center">
+                    <div id="chart-pie" class="c3_chart d_distribution"></div>
+                </div>
+            </div>        
+        </div>
+	</div>
+</body>
+    <script src="../js/libscripts.bundle.js"></script> 
+    <script src="../js/c3.bundle.js"></script>
+    <script src="../js/mainscripts.bundle.js"></script>
+    <script src="../js/index.js"></script>
+</html>

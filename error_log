@@ -1,0 +1,68 @@
+[17-Jul-2020 09:46:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 5
+[17-Jul-2020 09:46:09 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:09 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:09 UTC] PHP Warning:  include(): Failed opening 'php/link.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:09 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:09 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:09 UTC] PHP Warning:  include(): Failed opening 'php/header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:09 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:09 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:09 UTC] PHP Warning:  include(): Failed opening 'php/footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 5
+[17-Jul-2020 09:46:20 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:20 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:20 UTC] PHP Warning:  include(): Failed opening 'php/link.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:20 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:20 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:20 UTC] PHP Warning:  include(): Failed opening 'php/header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:20 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:20 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:20 UTC] PHP Warning:  include(): Failed opening 'php/footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 5
+[17-Jul-2020 09:46:29 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:29 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:29 UTC] PHP Warning:  include(): Failed opening 'php/link.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:29 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:29 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:29 UTC] PHP Warning:  include(): Failed opening 'php/header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:29 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:29 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:29 UTC] PHP Warning:  include(): Failed opening 'php/footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 5
+[17-Jul-2020 09:46:33 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:33 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:33 UTC] PHP Warning:  include(): Failed opening 'php/link.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:33 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:33 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:33 UTC] PHP Warning:  include(): Failed opening 'php/header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:33 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:33 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:33 UTC] PHP Warning:  include(): Failed opening 'php/footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 5
+[17-Jul-2020 09:46:35 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:35 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:35 UTC] PHP Warning:  include(): Failed opening 'php/link.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 12
+[17-Jul-2020 09:46:35 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:35 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:35 UTC] PHP Warning:  include(): Failed opening 'php/header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 18
+[17-Jul-2020 09:46:35 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:35 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:35 UTC] PHP Warning:  include(): Failed opening 'php/footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 201
+[17-Jul-2020 09:46:55 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 4
+[17-Jul-2020 09:46:55 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 4
+[17-Jul-2020 09:46:55 UTC] PHP Warning:  include(): Failed opening 'php/link.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 4
+[17-Jul-2020 09:46:55 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 10
+[17-Jul-2020 09:46:55 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 10
+[17-Jul-2020 09:46:55 UTC] PHP Warning:  include(): Failed opening 'php/header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 10
+[17-Jul-2020 09:46:55 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 265
+[17-Jul-2020 09:46:55 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 265
+[17-Jul-2020 09:46:55 UTC] PHP Warning:  include(): Failed opening 'php/footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 265
+[17-Jul-2020 09:46:56 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 4
+[17-Jul-2020 09:46:56 UTC] PHP Warning:  include(php/link.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 4
+[17-Jul-2020 09:46:56 UTC] PHP Warning:  include(): Failed opening 'php/link.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 4
+[17-Jul-2020 09:46:56 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 10
+[17-Jul-2020 09:46:56 UTC] PHP Warning:  include(php/header.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 10
+[17-Jul-2020 09:46:56 UTC] PHP Warning:  include(): Failed opening 'php/header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 10
+[17-Jul-2020 09:46:56 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 265
+[17-Jul-2020 09:46:56 UTC] PHP Warning:  include(php/footer.php): failed to open stream: No such file or directory in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 265
+[17-Jul-2020 09:46:56 UTC] PHP Warning:  include(): Failed opening 'php/footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/czxilvyp/jeet.netwebdevelopers.com/video/admin/index.php on line 265

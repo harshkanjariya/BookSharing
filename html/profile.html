@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Profile</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/profile.css?x=3">
+</head>
+<body>
+	<div class="first">
+		<!-- <button class="photoChange font-nunito"><i class="fa fa-camera"></i>&nbsp;&nbsp;Change Cover</button> -->
+	</div>
+	<div class="container-fluid pl-5 pr-5"> 
+		<div class="row">	
+			<div class="col-lg-4 col-xl-3 main-div">
+				<div class="child-div leftPart">
+					<div class="imgHere">
+					 <img src="http://imgc.allpostersimages.com/images/P-473-488-90/68/6896/2GOJ100Z/posters/despicable-me-2-minions-movie-poster.jpg" alt="" class="image--cover" />
+					 <i class="fa fa-camera"></i>
+					</div>
+					<h5 class="font-mont uName">Jeet Makwana</h5>
+					<p class="font-nunito text-muted">web developers</p>
+					<br/>
+					<div class="horizontal-line"></div>
+					<div class="one-line">
+						<h6 class="font-nunito">Total donated Books</h6>
+						<p class="font-nunito text-success">15</p>
+					</div>
+
+					<div class="horizontal-line"></div>
+					<div class="one-line">
+						<h6 class="font-nunito">Total Recived Books</h6>
+						<p class="font-nunito text-info">20</p>
+					</div>
+
+					<div class="horizontal-line"></div>
+					<div class="one-line">
+						<h6 class="font-nunito">Your Rank</h6>
+						<p class="font-nunito text-primary">106</p>
+					</div>
+					<div class="horizontal-line"></div>
+					<br/>
+					<button class="text-secondary font-nunito rank-list-button">View Rank List</button>
+				</div>
+			</div>
+			<div class="col-lg-8 col-xl-9 main-div">
+				
+				<div class="child-div right">
+					<ul class="nav nav-tabs">
+					    <li class="nav-link active"><a class="font-nunito" href="#asetting">Account Settings</a></li>
+					    <li class="nav-link"><a class="font-nunito" href="#csetting">College Settings</a></li>
+				  	</ul>
+					<div id="asetting" class="blocks active-show-div">
+						<form class="row">
+							<div class="col-lg-6">							
+								<div class="form-contact">
+									<label class="font-nunito">First Name</label>
+									<input type="text" name="fname" class="font-nunito" value="jeet">
+								</div>
+								<br/>
+								<div class="form-contact">
+									<label class="font-nunito">Phone Number</label>
+									<input type="number" name="pnum" class="font-nunito" value="9129789123" >
+								</div>
+								<br/>
+								<div class="form-group form-contact">
+									<label class="font-nunito" for="gender">Gender</label>
+								    <select class="form-control" id="gender">
+								      	<option>Gender</option>
+									    <option selected>Male</option>
+									    <option>Female</option>
+									    <option>other</option>
+								    </select>
+								 </div>
+							</div>
+							<div class="col-lg-6">
+								<div class="form-contact">
+									<label class="font-nunito">Last Name</label>
+									<input type="text" name="lname" class="font-nunito" value="Makwana">
+								</div>		
+								<br/>			
+								<div class="form-contact">
+									<label class="font-nunito">Email address</label>
+									<input type="email" name="email" class="font-nunito" value="jeet@gmail.com">
+								</div>		
+								<br/>			
+								<div class="form-contact">
+									<label class="font-nunito">Password</label>
+									<input type="password" name="pass" class="font-nunito" value="jeet@gmail.com">
+								</div>
+							</div>
+						</form>	
+					</div>
+
+
+
+					<div id="csetting" class="blocks">
+						<form class="row">
+							<div class="col-lg-6">							
+								<div class="form-contact">
+									<label class="font-nunito">College Name</label>
+									<input type="text" name="cname" class="font-nunito" value="jeet">
+								</div>
+								<br/>
+								<div class="form-group form-contact">
+									<label class="font-nunito" for="clgjoin">college join year</label>
+								    <select class="form-control" id="clgjoin">
+								      	<option>1</option>
+									    <option selected>2</option>
+									    <option>3</option>
+									    <option>4</option>
+								    </select>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="form-group form-contact">
+									<label class="font-nunito" for="depname">Department Name</label>
+								    <select class="form-control" id="depname">
+								      	<option>it</option>
+									    <option selected>CE</option>
+									    <option>me</option>
+									    <option>ee</option>
+								    </select>
+								</div>		
+								<br/>			
+								<div class="form-contact">
+									<label class="font-nunito">Enrollment Number</label>
+									<input type="text" name="erno" class="font-nunito" value="1234567">
+								</div>
+							</div>
+						</form>	
+					</div>
+
+
+					<br/>
+						<div class="last-box">
+							<div class="horizontal-line"></div>
+							<br/>
+							<div class="btn-here">	
+								<button class="update-1 font-nunito">Update</button>
+							</div>
+						</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+	$('.nav-tabs li').click(function(){
+		$('.nav-link').removeClass('active');
+		$(this).addClass('active');
+		var id=jQuery("a", this).attr('href');
+		$(".blocks").css('display','none');
+		$(id).css('display','block');
+	});
+</script>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	body{
+		margin:0px;
+		user-select:none;
+		font-family: 'Open Sans';
+		overflow: hidden;
+		user-select: none;
+		background-color: rgba(0, 188, 212,0.2);
+	}
+	.center {
+		  margin: auto;
+		  background-color: white;
+		  width: 60%;
+		  margin-top: 5%;
+		  height: 60vh;
+		  padding: 10px;
+		  padding-top: 100px;
+		}
+		#forgot{
+			width:50%; 
+		}
+		#forgotpas{
+			font-weight: 500;
+			color: #1A237E;
+		}
+
+		.md-form input[type=email]{
+			box-shadow: 0 1px 0 0 #000 !important;
+			border-bottom: 1px solid #000 !important;
+		}
+		.md-form input[type=password]{
+			box-shadow: 0 1px 0 0 #000 !important;
+			border-bottom: 1px solid #000 !important;
+		}
+		.md-form input[type=email]:focus{
+			box-shadow: 0 1px 0 0 #33315d !important;
+			border-bottom: 1px solid #33315d !important;
+		}
+		.md-form input[type=password]:focus{
+			box-shadow: 0 1px 0 0 #33315d !important;
+			border-bottom: 1px solid #33315d !important;
+		}
+		.md-form input[type=email]:focus + #enroll,.md-form input[type=password]:focus + #passp {
+			color:#33315d; 
+		}
+
+	#gobtn{
+		float: left;
+		background: #33315d;
+		border:none;
+		color: white;
+		width: 100%;
+		letter-spacing: 1px;
+		border-radius: 2px;
+		transition: .2s;
+	}
+	#gobtn:hover{
+		background: none;
+		border:2px solid #33315d;
+		color: #33315d;
+	}
+			/* Extra small devices (phones, 600px and down) */
+		@media only screen and (max-width: 600px) {
+			body{
+				overflow: auto;
+			}
+			.center{
+					height: auto;
+					width: 85%;
+					border-radius: 2px;
+				}
+				#forgot{
+					width:auto; 
+				}
+			#gobtn{
+				height: 45px;
+				font-size: 1rem;
+			}
+			#forgotpas{
+				font-size: 20px;
+			}
+		}
+
+		/* Small devices (portrait tablets and large phones, 600px and up) */
+		@media only screen and (min-width: 600px) {}
+
+		/* Medium devices (landscape tablets, 768px and up) */
+		@media only screen and (min-width: 768px) {
+
+		}
+
+		/* Large devices (laptops/desktops, 992px and up) */
+		@media only screen and (min-width: 600px) {	
+				.center{
+					height: auto;
+				}
+				#gobtn{
+					height: 55px;
+					font-size: 2rem;
+				}
+		}
+
+		/* Extra large devices (large laptops and desktops, 1200px and up) */
+		@media only screen and (min-width: 1200px) {
+				.center{
+					height: auto;
+				}
+				#gobtn{
+					height: 55px;
+					font-size: 1.7rem;
+				}
+		}
+</style>
+<body>
+	<div class="center">
+		<center>
+			<div id="forgot">
+				<h1 id="forgotpas" >Forgot Your Password?</h1><br/>
+				<p style="color: #607D8B">Dont't worry! Resetting your password is easy.<br/> Just Type Your E-mail / Phone No. or Enrollment No. <br/>And You Registered Board Me</p>
+				<br/>
+				<div class="md-form form-lg">
+				  <input type="email" id="inputLGEx" class="form-control form-control-lg">
+				  <label for="inputLGEx" id="enroll">Enrollment&nbsp;/&nbsp;Phno.&nbsp;/&nbsp;Email&nbsp;</label>
+				</div>
+				<br/>
+				<br/>
+				<button id="gobtn">SEND</button>
+				<br/>
+				<br/>
+				<br/>
+				<a href="login.html"><p style="color: rgb(0,0,0);">Did you remember your password? <b style="color:#448AFF">Try logging in</b></p></a>
+			</div>	
+		</center>
+	</div>
+		<br/>
+</body>
+</html>

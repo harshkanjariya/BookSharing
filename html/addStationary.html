@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://j11y.io/demos/plugins/jQuery/autoresize.jquery.js"></script>
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,600;1,700;1,800;1,900&display=swap');
+		  .font-mont{
+		    font-family: 'Montserrat',sans-serif;
+		  }
+		  .font-nunito{
+		    font-family:  'Nunito Sans', sans-serif;
+		  }
+		  body{
+			    background: #f9f9f9;
+			}
+
+		.container{
+			width: 100%;
+			margin-top: 5%;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+		@media only screen and (min-width: 991px){
+			.container .row{
+				width:80%;
+			}
+		}
+		.options{
+			font-family: 'Nunito',sans-serif;
+			background: #f5f5f5;
+			padding: 30px;
+		}
+	</style>	
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">	
+			<div class="col-md-12">
+					<h1 class="font-mont" style="font-weight: 600;">
+					Add Stationary
+					</h1>
+				<br/>
+				<br/>
+			</div>
+			<div class="col-md-12 options shadow-sm">
+		      	<div class="form-group">
+				    <label for="exampleInputEmail1">Name :</label>
+				    <input type="text" class="form-control" name="pdname" id="pdsname"  placeholder="Enter Name">
+				</div>
+				<br/>
+				<div class="input-group">
+				  <div class="input-group-prepend">
+				    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+				  </div>
+				  <div class="custom-file">
+				    <input type="file" name="file" id="fileb1" class="custom-file-input" aria-describedby="inputGroupFileAddon01">
+				    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+				  </div>
+				</div>
+				<br/>
+				<div class="form-group">
+				  <label for="comment">Description :</label>
+				  <textarea class="form-control" id="pdsdis" name="pddis" rows="5" id="comment0" placeholder="Enter Description"></textarea>
+				</div>
+				<button type="button" class="btn" style="background: #1e78e2;color: #fff;" onclick="submitS()">Submit</button> 
+				 <!--  <input type="submit" value="Upload Image" name="submit"> -->
+	    	<!-- </form> -->	
+			</div>    
+    	</div>
+	</div>
+</body>
+<script type="text/javascript">
+	function submitS(){
+		  var pddis=$('#pdsdis').val();
+		  var pdname=$('#pdsname').val();
+		  var who='s';
+		  var file_data = $('#fileb1').prop('files')[0];   
+		  var form_data = new FormData();                                    
+		  form_data.append('file', file_data);
+		  form_data.append('pddis',pddis);
+		  form_data.append('pdname',pdname);
+		  form_data.append('who',who);
+		  console.log(form_data);
+		  $.ajax({
+		      url: "../php/imageUpload.php",
+		      type: "POST",
+		      data: form_data,
+		      contentType: false,
+		      cache: false,
+		      processData:false,
+		      success: function(data){
+		          	console.log(data);
+		          	//alert("success");
+		          	if(data.charAt(0)=='N')
+			          	location.reload();
+		      }
+		  });
+	}
+</script>
+</html>

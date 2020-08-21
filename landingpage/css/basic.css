@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,600;1,700;1,800;1,900&display=swap');
+body{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #f6f7fb;
+	overflow-x: hidden;
+
+}
+:root{
+	--light-primary:#1e78e2;
+	--light-textColor:#fff;
+};
+
+/*text and colors*/
+.text-muted{
+	color:#777;
+}
+.bg-dark{
+	background-color: #151515;
+}
+.bg-grey{
+	background-color: #f7f7f7;
+}
+.bg-white{
+	background-color: #fff;
+}
+.font-mont{
+	font-family: 'Montserrat',sans-serif;
+}
+.font-nunito{
+	font-family:  'Nunito Sans', sans-serif;
+}
+.text-title{
+	color: #fff;
+	font-size: 3.9rem;
+	font-weight: 600;
+}
+@media only screen and (min-width: 1400px){
+	.text-title span{
+		display: block;
+	}
+}	
+.name-title{
+	font-size: 3.6rem;
+	font-weight: 400;	
+}
+@media only screen and (max-width: 798px) {
+	.text-title{
+		font-size: 2.8rem;
+		font-weight: 500;
+	}
+	.name-title{
+		font-size: 3rem;
+		font-weight: 400;	
+	}	
+}
+@media only screen and (max-width: 400px) {
+	.text-title{
+		font-size: 2.3rem;
+		font-weight: 500;
+	}
+	.name-title{
+		font-size: 2.7rem;
+		font-weight: 400;	
+	}	
+}
+/*text and colors end*/
+
+/* positions */
+.vertical-center{
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.horizontal-center{
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: center;
+}
+.text-center{
+	text-align: center;
+}
+.m-auto{
+	margin: auto;
+}
+.ml-auto{
+	margin-left: auto;
+}
+.mr-auto{
+	margin-right: auto;
+}
+.mt-auto{
+	margin-top: auto;
+}
+.mb-auto{
+	margin-bottom: auto;
+}
+/* positions */
+
+/* specials */
+.heading{
+	font-size: 27px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bg-dark .heading{
+	color: white;
+}
+.page-path{
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	padding: 15px 0px;
+}
+.page-path *{
+	padding: 5px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.page-path .parent{
+	color: grey;
+}
+/* specials end */
+
+/* blocks */
+.page{
+	padding: 30px 0px;
+}
+.container-netweb{
+	width: 85vw;
+	border-radius: 11px;
+	margin: 0px auto;
+}
+.hby1,.hby2,.hby3,.hby5,
+.vby1,.vby2,.vby3,.vby5{
+	float: left;
+}
+.container-netweb:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.container-netweb table{
+	table-layout: fixed;
+	width: 100%;
+}
+.container-netweb table tbody{
+	border-spacing: 0px;
+}
+.container-netweb tr,
+.container-netweb td{
+	width: 100%;
+}
+.hfill{
+	width: -moz-available;
+	width: -webkit-fill-available;
+	width: fill-available;
+}
+.vfill{
+	height: -moz-available;
+	height: -webkit-fill-available;
+	height: fill-available;
+}
+.hby1{width: 100%;}
+.hby2{width: 50%;}
+.hby3{width: 33.333%;}
+.hby5{width: 20%;}
+.vby1{height: 100%;}
+.vby2{height: 50%;}
+.vby3{height: 33.333%;}
+.vby5{height: 20%;}
+/* blocks end */
+
+@media only screen and (max-width:1400px){
+	.container-netweb{
+		width: 970px;
+	}
+}
+@media only screen and (max-width: 992px){
+	.container-netweb{
+		width: 750px;
+	}
+}
+@media only screen and (max-width:768px){
+	.mobile-vertical{
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+	.container-netweb{
+		width: 100%;
+		padding: 15px;
+	}
+}
+
+/* order */
+@media only screen and (max-width: 991px){
+	.order-1{
+		order: 1;
+	}
+	.order-2{
+		order: 2;
+	}
+}
+@media only screen and (min-width: 991px){
+	.order-1{
+		order: 2;
+	}
+	.order-2{
+		order: 1;
+	}
+}
