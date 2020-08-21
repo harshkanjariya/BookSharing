@@ -3,7 +3,7 @@ include 'database.php';
 $clg=$_POST['clg'];
 $id=$_POST['id'];
 $pass=$_POST['pass'];
-$sql="select * from ".$clg."_users where enroll='$id' or email='$id' and password='$pass'";
+$sql="select * from users where enroll='$id' or email='$id' and password='$pass'";
 $result=mysqli_query($db,$sql);
 if(mysqli_num_rows($result)==1){
     echo "success";
