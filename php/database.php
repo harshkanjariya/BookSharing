@@ -1,4 +1,4 @@
 <?php
-$db=mysqli_connect('localhost','czxilvyp_jeet','HaRsH@_.','czxilvyp_books');
+$db=mysqli_connect('localhost','root','','hackathone');
 if(!$db)echo "Error";
 ?>
